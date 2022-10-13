@@ -220,9 +220,9 @@ function TabPanel() {
                                             <div style={{ backgroundColor: 'rgba(102, 114, 125, 0.6)', borderRadius: '5rem' }}>
                                                 <div className="h-100 p-5 my-2 rounded">
                                                     <h3><FaUserGraduate fontSize='5rem' /> <br /><b>2021 - Pursuing</b></h3>
-                                                    <h2><b style={{color: 'rgb(203, 178, 106)'}}>UNDER-GRADUATION <br />(B.Tech)</b></h2>
+                                                    <h2><b style={{ color: 'rgb(203, 178, 106)' }}>UNDER-GRADUATION <br />(B.Tech)</b></h2>
                                                     {/* <h4>Percentage - 88%</h4> */}
-                                                    <h3 style={{color: 'rgb(203, 178, 106)'}}>Institute of Technical Education and Research, SOA</h3>
+                                                    <h3 style={{ color: 'rgb(203, 178, 106)' }}>Institute of Technical Education and Research, SOA</h3>
                                                     {/* <ul>
                                                         <li>Had exemplary academic track record with multiple academic excellence award</li>
                                                         <li>Represented school on multiple platforms including on national level.</li>
@@ -234,9 +234,9 @@ function TabPanel() {
                                             <div style={{ backgroundColor: 'rgba(102, 114, 125, 0.6)', borderRadius: '5rem' }}>
                                                 <div className="h-100 p-4 rounded">
                                                     <h3><FaSchool fontSize='5rem' /> <br /><b>2021</b></h3>
-                                                    <h1><b style={{color: 'rgb(203, 178, 106)'}}>Class - 12</b></h1>
+                                                    <h1><b style={{ color: 'rgb(203, 178, 106)' }}>Class - 12</b></h1>
                                                     <h4>Percentage - 88%</h4>
-                                                    <h3 style={{color: 'rgb(203, 178, 106)'}}>Kendriya Vidhalaya, Noida</h3>
+                                                    <h3 style={{ color: 'rgb(203, 178, 106)' }}>Kendriya Vidhalaya, Noida</h3>
                                                     <ul>
                                                         <li>Had exemplary academic track record with multiple academic excellence award</li>
                                                         <li>Represented school on multiple platforms including on national level.</li>
@@ -255,49 +255,67 @@ function TabPanel() {
 
                                 <div className="">
                                     <div className='p-4 pt-5 my-2' style={{ backgroundColor: 'rgba(102, 114, 125, 0.6)', borderRadius: '5rem' }}>
-                                            <div className="text-center">
-                                                <h4>January 2022 - Present </h4>
-                                                <h2 style={{ color: 'rgb(203, 178, 106)' }}>Chief Technology Officer (CTO)</h2>
-                                                <h5>at <b> uncovercampus.com</b></h5>
-                                                <h5>FULL STACK DEVELOPMENT</h5>
-                                            </div>
-                                            <div className='container mt-4'>
-                                                <ul className=''>
-                                                    <li>
-                                                        Developed website from scratch with various algorithm to make business site effective.
-                                                    </li>
-                                                    <li>
-                                                        Develop site in two different tech stacks.
-                                                    </li>
-                                                    <li>
-                                                        Manage whole database for huge count of students.
-                                                    </li>
-                                                    <li>
-                                                        Manage several teams like tech developer team and social media marketing team .
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                        <div className="text-center">
+                                            <h4>January 2022 - Present </h4>
+                                            <h2 style={{ color: 'rgb(203, 178, 106)' }}>Chief Technology Officer (CTO)</h2>
+                                            <h5>at <b> uncovercampus.com</b></h5>
+                                            <h5>FULL STACK DEVELOPMENT</h5>
                                         </div>
-                                        <div className='p-4 pt-5' style={{ backgroundColor: 'rgba(102, 114, 125, 0.6)', borderRadius: '5rem' }}>
-                                            <div className="text-center">
-                                                <h4>September 2022 - Present </h4>
-                                                <h2 style={{ color: 'rgb(203, 178, 106)' }}>Full Stack Developer</h2>
-                                                <h5>at <b> Apoorba Industries</b></h5>
-                                                <h5>FULL STACK DEVELOPMENT</h5>
-                                            </div>
-                                            <div className='container mt-4'>
-                                                <ul className=''>
-                                                    <li>
-                                                        Developed website from scratch with various algorithm to make business site effective.
-                                                    </li>
-                                                    <li>
-                                                        Develop site in two different tech stacks.
-                                                    </li>
-                                                    <li>
-                                                        Manage whole database for huge count of products and customers.
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                        <div className='container mt-4'>
+                                            <ul className=''>
+                                                <li>
+                                                    Developed website from scratch with various algorithm to make business site effective.
+                                                </li>
+                                                <li>
+                                                    Manage whole database for huge count of students.
+                                                </li>
+                                                <li>
+                                                    Manage several teams like tech developer team and social media marketing team .
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className='p-4 pt-5 my-2' style={{ backgroundColor: 'rgba(102, 114, 125, 0.6)', borderRadius: '5rem' }}>
+                                        <div className="text-center">
+                                            <h4>September 2022 - Present </h4>
+                                            <h2 style={{ color: 'rgb(203, 178, 106)' }}>Full Stack Developer</h2>
+                                            <h5>at <b> Apoorba Industries</b></h5>
+                                            <h5>FULL STACK DEVELOPMENT</h5>
+                                        </div>
+                                        <div className='container mt-4'>
+                                            <ul className=''>
+                                                <li>
+                                                    Developed website from scratch with various algorithm to make business site effective.
+                                                </li>
+                                                <li>
+                                                    Develop site in two different tech stacks.
+                                                </li>
+                                                <li>
+                                                    Manage whole database for huge count of products and customers.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className='p-4 pt-5 my-2' style={{ backgroundColor: 'rgba(102, 114, 125, 0.6)', borderRadius: '5rem' }}>
+                                        <div className="text-center">
+                                            <h4> 1 October 2022 -  30 October 2022 </h4>
+                                            <h2 style={{ color: 'rgb(203, 178, 106)' }}>Open Source Developer</h2>
+                                            <a className='link' href="https://hacktoberfest.com/" target='_blank' rel="noreferrer"><h5>at <b> Hacktoberfest 2022</b></h5></a>
+                                            {/* <h5>FULL STACK DEVELOPMENT</h5> */}
+                                        </div>
+                                        <div className='container mt-4'>
+                                            <ul className=''>
+                                                <li>
+                                                Resolve issues in many repos.
+                                                </li>
+                                                <li>
+                                                    Manage documentations and readme files.
+                                                </li>
+                                                <li>
+                                                    Proper use of git and github with good descriptions in PR
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
 

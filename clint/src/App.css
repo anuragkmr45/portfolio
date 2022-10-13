@@ -32,6 +32,7 @@ body {
   color: rgba(203, 179, 106);
 }
 
+
 .fadeIn {
   animation: 1.5s ease-out fadeIn 1;
 }

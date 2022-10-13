@@ -24,10 +24,10 @@ function Home() {
     return (
         <>
             <section style={parallex} >
-                <div className="container" style={{paddingTop: '5rem', paddingBottom: '5rem'}}>
+                <div className="container" style={{ paddingTop: '5rem', paddingBottom: '5rem' }}>
                     <div className="row">
                         <div className="col-lg-7 col-md-6 col-sm-12 fadeInLeft">
-                            <h1> Hi,  <span className="wave" role="img" aria-labelledby="wave">👋🏻</span><br /> I'm  <span style={{color: 'rgb(203, 178, 106)'}}>Anurag,</span></h1>
+                            <h1> Hi,  <span className="wave" role="img" aria-labelledby="wave">👋🏻</span><br /> I'm  <span style={{ color: 'rgb(203, 178, 106)' }}>Anurag,</span></h1>
 
                             <div className="me my-3">
                                 <h1>
@@ -40,10 +40,12 @@ function Home() {
                                 </h1>
                             </div>
 
-                            <p className='my-3'> Co-Founder and CTO of uncovercampus <br /> Software developer with strong technical skills anchored on extensive engineering coursework and a special focus on Front-end as well as Back-end Development and Database management</p>
+                            <p className='my-3'>
+                                Co-Founder and CTO of uncovercampus <br /> Software developer with strong technical skills anchored on extensive engineering coursework and a special focus on Front-end as well as Back-end Development and Database management
+                            </p>
                         </div>
                         <div className="col-lg-5 col-md-6 col-sm-12 text-center fadeInRight">
-                            <img className='upDown' src={MyImg} alt=""/>
+                            <img className='upDown' src={MyImg} alt="" />
                         </div>
                     </div>
                     {/* <Wave /> */}
@@ -58,31 +60,31 @@ function Home() {
                         <div className="col-lg-8 col-md-8 col-sm-12 fadeInRigth">
                             <div className="d-flex flex-wrap justify-content-around my-5 py-5">
                                 <div className='text-center'>
-                                    <BsFillClockFill color='rgb(203, 178, 106)' className='my-2 workIcon' fontSize='3rem'/>
+                                    <BsFillClockFill color='rgb(203, 178, 106)' className='my-2 workIcon' fontSize='3rem' />
                                     <h2>2,000 +</h2>
-                                    <h5 style={{color: 'rgb(203, 178, 106)'}}>Working Hours</h5>
+                                    <h5 style={{ color: 'rgb(203, 178, 106)' }}>Working Hours</h5>
                                 </div>
                                 <div className='text-center'>
-                                    <BsCodeSlash color='rgb(203, 178, 106)' className='my-2' fontSize='3rem'/>
+                                    <BsCodeSlash color='rgb(203, 178, 106)' className='my-2' fontSize='3rem' />
                                     <h2>15,000+</h2>
-                                    <h5 style={{color: 'rgb(203, 178, 106)'}}>Lines Of Code</h5>
+                                    <h5 style={{ color: 'rgb(203, 178, 106)' }}>Lines Of Code</h5>
                                 </div>
                                 <div className='text-center'>
-                                    <BsFillCupFill color='rgb(203, 178, 106)' className='my-2' fontSize='3rem'/>
+                                    <BsFillCupFill color='rgb(203, 178, 106)' className='my-2' fontSize='3rem' />
                                     <h2>500+</h2>
-                                    <h5 style={{color: 'rgb(203, 178, 106)'}}>Cups of Coffee</h5>
+                                    <h5 style={{ color: 'rgb(203, 178, 106)' }}>Cups of Coffee</h5>
                                 </div>
                                 <div className='text-center'>
-                                    <MdOutlineNightsStay color='rgb(203, 178, 106)' className='my-2' fontSize='3rem'/>
+                                    <MdOutlineNightsStay color='rgb(203, 178, 106)' className='my-2' fontSize='3rem' />
                                     <h2>200+</h2>
-                                    <h5 style={{color: 'rgb(203, 178, 106)'}}>Sleepless Nights</h5>
+                                    <h5 style={{ color: 'rgb(203, 178, 106)' }}>Sleepless Nights</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                     {/* <Wave /> */}
                 </div>
-            </section> 
+            </section>
         </>
     )
 }
