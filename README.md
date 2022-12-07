@@ -1,7 +1,7 @@
 # Anurag's Portfolio website 
 
 This is a portfolio website develop using [react.js](https://reactjs.org/) and host in [netlify](https://www.netlify.com/)
-This is a website where you can show case your work and collaborations as well as your bio 
+Here you can showcase your work and collaborations as well as your bio 
 
 ## Project timeline and technologies used
 Build a React website in 48 hours to showcase the following:
