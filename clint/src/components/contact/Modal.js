@@ -32,12 +32,12 @@ function Modal() {
                                 <div>
                                     <div className='d-flex flex-wrap justify-content-around'>
                                         <div className='contactIcon'>
-                                            <a href='https://www.linkedin.com/in/anurag-kumar-37aab221a/'>
+                                            <a  target='_blank'  rel="noreferrer" href='https://www.linkedin.com/in/anurag-kumar-37aab221a/'>
                                                 <AiOutlineLinkedin fontSize='3rem' />
                                             </a>
                                         </div>
                                         <div className='contactIcon'>
-                                            <a href='https://github.com/anuragkmr45'>
+                                            <a  target='_blank'  rel="noreferrer" href='https://github.com/anuragkmr45'>
                                                 <AiFillGithub fontSize='3rem' />
                                             </a>
                                         </div>
@@ -45,12 +45,12 @@ function Modal() {
                                             <AiOutlineWhatsApp fontSize='3rem' />
                                         </div> */}
                                         <div className='contactIcon'>
-                                            <a href="https://twitter.com/anuragkmr45">
+                                            <a  target='_blank'  rel="noreferrer" href="https://twitter.com/anuragkmr45">
                                                 <AiFillTwitterSquare fontSize='3rem' />
                                             </a>
                                         </div>
                                         <div className='contactIcon'>
-                                            <a href="https://dev.to/anuragkmr45">
+                                            <a  target='_blank'  rel="noreferrer" href="https://dev.to/anuragkmr45">
                                                 <FaDev fontSize='3rem' />
                                             </a>
                                         </div>

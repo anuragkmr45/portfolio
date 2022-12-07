@@ -10,6 +10,7 @@ import Yummy from "../../images/projects/yummy.png";
 
 import Portfolio from "../../images/projects/portfolio.png";
 import UC_new from "../../images/projects/UC_new.png";
+import Todo from "../../images/projects/todo.png"
 
 function TabPanel() {
     const [showtab, setShowtab] = useState(1);
@@ -131,6 +132,17 @@ function TabPanel() {
                                             li3="Hand coded custom amination using css and Jquery and making the website interactive."
                                             // live="https://anuragkmr45.netlify.app/"
                                             code="https://github.com/anuragkmr45/portfolio.git"
+                                        />
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12">
+                                        <TabPanelCard
+                                            img={Todo}
+                                            title="ToDo List Manager"
+                                            subTitle="Daily routine manager"
+                                            li1="Fully responsive front end, back end web page setup along with integrated database setup"
+                                            li2="Created all the components from scratch using react.js and redux"
+                                            // live="https://anuragkmr45.netlify.app/"
+                                            code="https://github.com/anuragkmr45/todo-list.git"
                                         />
                                     </div>
                                 </div>
