@@ -3,9 +3,11 @@ import './Home.css'
 
 import Img1 from '../../images/Hero-bg1.png'
 import Vector1 from '../../images/vector-1.png'
-import MyImg from '../../images/favicon.png'
+import MyImg from '../../images/myImg.png'
 
-import { BsFillClockFill, BsCodeSlash, BsFillCupFill } from "react-icons/bs";
+
+import { BsInstagram, BsLinkedin, BsGithub, BsTwitter, BsFillClockFill, BsCodeSlash, BsFillCupFill } from 'react-icons/bs';
+import { FaDev } from 'react-icons/fa';
 import { MdOutlineNightsStay } from "react-icons/md";
 
 
@@ -34,15 +36,23 @@ function Home() {
                                     <span>.</span>
                                     <div className="message">
                                         <div className="word1">entrepreneur</div>
-                                        <div className="word2">web developer</div>
+                                        <div className="word2">developer</div>
                                         <div className="word3">open source </div>
                                     </div>
                                 </h1>
                             </div>
 
                             <p className='my-3'>
-                                Co-Founder and CTO of uncovercampus <br /> Software developer with strong technical skills anchored on extensive engineering coursework and a special focus on Front-end as well as Back-end Development and Database management
+                                Co-Founder at <a href="https://progeeks.in/" style={{ textDecoration: "none", color: "whitesmoke" }} >ProGeeks</a> | Open source contributor | MERN , Next.JS Developer| Former CTO at UNCOVERCAMPUS | DevOps trainee  <br /> <br /> Software developer with strong technical skills anchored on extensive engineering coursework and a special focus on Back-end Development.
                             </p>
+
+                            <ul className="nav">
+                                <li className="nav-item"><a href="https://www.instagram.com/anuragkmr_45/" target='_blank' rel="noreferrer" className="nav-link px-2 text-muted"><BsInstagram fontSize='2rem' /></a></li>
+                                <li className="nav-item"><a href="https://www.linkedin.com/in/anurag-kumar-37aab221a/" target='_blank' rel="noreferrer" className="nav-link px-2 text-muted"><BsLinkedin fontSize='2rem' /></a></li>
+                                <li className="nav-item"><a href="https://github.com/anuragkmr45" target='_blank' rel="noreferrer" className="nav-link px-2 text-muted"><BsGithub fontSize='2rem' /></a></li>
+                                <li className="nav-item"><a href="https://twitter.com/anuragkmr45" target='_blank' rel="noreferrer" className="nav-link px-2 text-muted"><BsTwitter fontSize='2rem' /></a></li>
+                                <li className="nav-item"><a href="https://dev.to/anuragkmr45" target='_blank' rel="noreferrer" className="nav-link px-2 text-muted"><FaDev fontSize='2rem' /></a></li>
+                            </ul>
                         </div>
                         <div className="col-lg-5 col-md-6 col-sm-12 text-center fadeInRight">
                             <img className='upDown' src={MyImg} alt="" />
