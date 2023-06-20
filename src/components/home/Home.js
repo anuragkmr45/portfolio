@@ -44,7 +44,7 @@ function Home() {
                             </div>
 
                             <p className='my-3'>
-                                Co-Founder at <a href="https://progeeks.in/" style={{ textDecoration: "none", color: "whitesmoke" }} >ProGeeks</a> | Open source contributor | MERN , Next.JS Developer| Former CTO at UNCOVERCAMPUS | DevOps trainee  <br /> <br /> Software developer with strong technical skills anchored on extensive engineering coursework and a special focus on Back-end Development.
+                                Co-Founder at <a href="https://progeeks.in/" style={{ textDecoration: "none", color: "whitesmoke" }} >ProGeeks</a> | Open source contributor | JavaScript Developer| Former CTO at UNCOVERCAMPUS | DevOps trainee  <br /> <br /> Software developer with strong technical skills anchored on extensive engineering coursework and a special focus on Back-end Development.
                             </p>
 
                             <ul className="nav">
