@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 
 import './TabPanel.css'
 
-import { FaHtml5, FaCss3Alt, FaReact, FaNpm, FaPython, FaJava, FaNodeJs, FaPhp, FaSchool, FaUserGraduate } from "react-icons/fa";
+// FaHtml5, FaCss3Alt, FaReact, FaNpm, FaPython, FaJava, FaNodeJs, FaPhp,
+import { FaSchool, FaUserGraduate } from "react-icons/fa";
 // import { SiJavascript, SiMysql, SiTailwindcss, SiMongodb, SiCanva, SiMui } from "react-icons/si";
 // import { DiGit, DiDjango } from "react-icons/di";
 
