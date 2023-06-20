@@ -17,7 +17,7 @@ import { RiPagesLine } from "react-icons/ri";
 import { CgGitFork } from "react-icons/cg";
 
 function Navbar(props) {
-    
+
     // const navigate = useNavigate();
     // const smoothDirect = () => {
     //     window.scroll({

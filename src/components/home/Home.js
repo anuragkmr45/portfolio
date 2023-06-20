@@ -1,9 +1,10 @@
-import React from 'react'
-import './Home.css'
+import React from 'react';
+import './Home.css';
+import CountingAnimation from '../animations/CountingAnimation';
 
-import Img1 from '../../images/Hero-bg1.png'
-import Vector1 from '../../images/vector-1.png'
-import MyImg from '../../images/myImg.png'
+import Img1 from '../../images/Hero-bg1.png';
+import Vector1 from '../../images/vector-1.png';
+import MyImg from '../../images/myImg.png';
 
 
 import { BsInstagram, BsLinkedin, BsGithub, BsTwitter, BsFillClockFill, BsCodeSlash, BsFillCupFill } from 'react-icons/bs';
@@ -36,7 +37,7 @@ function Home() {
                                     <span>.</span>
                                     <div className="message">
                                         <div className="word1">entrepreneur</div>
-                                        <div className="word2">developer</div>
+                                        <div className="word2">Web developer</div>
                                         <div className="word3">open source </div>
                                     </div>
                                 </h1>
@@ -75,25 +76,25 @@ function Home() {
                             <img src={Vector1} alt="" style={{ height: '19rem' }} />
                         </div>
                         <div className="col-lg-8 col-md-8 col-sm-12 fadeInRigth">
-                            <div className="d-flex flex-wrap justify-content-around my-5 py-5">
+                            <div id='target-element' className="d-flex flex-wrap justify-content-around my-5 py-5">
                                 <div className='text-center'>
                                     <BsFillClockFill color='rgb(203, 178, 106)' className='my-2 workIcon' fontSize='3rem' />
-                                    <h2>2,000 +</h2>
+                                    <h2>{<CountingAnimation targetValue="2000" duration="2500" />} +</h2>
                                     <h5 style={{ color: 'rgb(203, 178, 106)' }}>Working Hours</h5>
                                 </div>
                                 <div className='text-center'>
                                     <BsCodeSlash color='rgb(203, 178, 106)' className='my-2' fontSize='3rem' />
-                                    <h2>15,000+</h2>
+                                    <h2>{<CountingAnimation targetValue="15000" duration="2500" />} +</h2>
                                     <h5 style={{ color: 'rgb(203, 178, 106)' }}>Lines Of Code</h5>
                                 </div>
                                 <div className='text-center'>
                                     <BsFillCupFill color='rgb(203, 178, 106)' className='my-2' fontSize='3rem' />
-                                    <h2>500+</h2>
+                                    <h2>{<CountingAnimation targetValue="500" duration="2500" />} +</h2>
                                     <h5 style={{ color: 'rgb(203, 178, 106)' }}>Cups of Coffee</h5>
                                 </div>
                                 <div className='text-center'>
                                     <MdOutlineNightsStay color='rgb(203, 178, 106)' className='my-2' fontSize='3rem' />
-                                    <h2>200+</h2>
+                                    <h2>{<CountingAnimation targetValue="200" duration="2500" />} +</h2>
                                     <h5 style={{ color: 'rgb(203, 178, 106)' }}>Sleepless Nights</h5>
                                 </div>
                             </div>

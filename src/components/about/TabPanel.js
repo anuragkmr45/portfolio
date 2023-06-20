@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 
 import './TabPanel.css'
 
-import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaNpm, FaPython, FaJava, FaNodeJs, FaPhp, FaSchool, FaUserGraduate } from "react-icons/fa";
-import { SiJavascript, SiMysql, SiMongodb, SiCanva } from "react-icons/si";
-import { DiGit, DiDjango } from "react-icons/di";
+import { FaHtml5, FaCss3Alt, FaReact, FaNpm, FaPython, FaJava, FaNodeJs, FaPhp, FaSchool, FaUserGraduate } from "react-icons/fa";
+// import { SiJavascript, SiMysql, SiTailwindcss, SiMongodb, SiCanva, SiMui } from "react-icons/si";
+// import { DiGit, DiDjango } from "react-icons/di";
 
 function TabPanel() {
 
@@ -30,183 +30,7 @@ function TabPanel() {
                             {/* start tab 1*/}
                             <div className={showtab === 1 ? "tab-pane fade show active p-lg-4" : "tab-pane fade show p-lg-4"} style={{ backgroundColor: 'rgba(102, 114, 125, 0.6)', borderRadius: '5rem' }} >
 
-                                <div>
-                                    <div className='d-flex flex-wrap justify-content-around'>
-                                        <div className="my-3">
-                                            <div className="card-body skillCard">
-                                                <h5 className="card-title">MARKUP / STYLING <br /> LANGUAGE</h5>
-                                                <div className="d-flex justify-content-around my-2 py-2">
-                                                    <div>
-                                                        <FaHtml5 color='red' fontSize='2rem' />
-                                                        <h5>HTML</h5>
-                                                    </div>
-                                                    <div>
-                                                        <FaCss3Alt color='blue' fontSize='2rem' />
-                                                        <h5>CSS</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="my-3">
-                                            <div className="card-body skillCard">
-                                                <h5 className="card-title">CSS  <br /> FRAMEWORK</h5>
-                                                <div className="my-2 py-2">
-                                                    <div>
-                                                        <FaBootstrap color='purple' fontSize='2rem' />
-                                                        <h5>BOOTSTRAP</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="my-3">
-                                            <div className="card-body skillCard">
-                                                <h5 className="card-title">GRAPHIC DEISGN  <br /> TOOLS</h5>
-                                                <div className="my-2 py-2">
-                                                    <div>
-                                                        <SiCanva color='rgb(27, 47, 145)' fontSize='2rem' />
-                                                        <h5>CANVA</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="my-3">
-                                            <div className="card-body skillCard">
-                                                <h5 className="card-title"> FRONT-END <br /> LANGUAGE</h5>
-                                                <div className="my-2 py-2">
-                                                    <div>
-                                                        <SiJavascript color='yellow' fontSize='2rem' />
-                                                        <h5>JAVA SCRIPT</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    <div className='d-flex flex-wrap justify-content-around'>
-                                        <div className="my-3">
-                                            <div className="card-body skillCard">
-                                                <h5 className="card-title">PROGRAMMING <br /> LANGUAGE </h5>
-                                                <div className="d-flex justify-content-around my-2 py-2">
-                                                    <div>
-                                                        <FaJava color='orange' fontSize='2rem' />
-                                                        <h5>JAVA</h5>
-                                                    </div>
-                                                    <div>
-                                                        <FaPython color='rgb(135,206,250)' fontSize='2rem' />
-                                                        <h5>PYTHON</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="my-3">
-                                            <div className="card-body skillCard">
-                                                <h5 className="card-title">CSS  <br /> FRAMEWORK</h5>
-                                                <div className="my-2 py-2">
-                                                    <div>
-                                                        <FaReact color='rgb(135,206,250)' fontSize='2rem' />
-                                                        <h5>REACT JS</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="my-3">
-                                            <div className="card-body skillCard">
-                                                <h5 className="card-title">DATABASE <br /> MANAGEMENT</h5>
-                                                <div className="d-flex justify-content-between my-2 py-2">
-                                                    <div className='mx-3'>
-                                                        <SiMysql color='blue' fontSize='2rem' />
-                                                        <h5>MYSQL</h5>
-                                                    </div>
-                                                    {/* <div>
-                                                        <SiSqlite fontSize='2rem' />
-                                                        <h5>SQLITE</h5>
-                                                    </div> */}
-                                                    <div>
-                                                        <SiMongodb color='green' fontSize='2rem' />
-                                                        <h5>MONGODB <br /> (NO SQL)</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="my-3">
-                                            <div className="card-body skillCard">
-                                                <h5 className="card-title"> VERSION <br /> CONTROL</h5>
-                                                <div className="my-2 py-2">
-                                                    <div>
-                                                        <DiGit color='orange' fontSize='2rem' />
-                                                        <h5>GIT</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div className='d-flex flex-wrap justify-content-around'>
-                                        <div className="my-3">
-                                            <div className="card-body skillCard">
-                                                <h5 className="card-title">BACKEND  <br /> FRAMEWORK </h5>
-                                                <div className="d-flex justify-content-around my-2 py-2">
-                                                    <div>
-                                                        <FaNodeJs color='#006400' fontSize='2rem' />
-                                                        <h5>NODE JS <br /> (JAVASCRIPT)</h5>
-                                                    </div>
-                                                    <div>
-                                                        <DiDjango color='rgb(135,206,250)' fontSize='2rem' />
-                                                        <h5>DJANGO <br /> (PYTHON)</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="my-3">
-                                            <div className="card-body skillCard">
-                                                <h5 className="card-title">PACKAGE <br /> MANAGER</h5>
-                                                <div className="d-flex justify-content-around my-2 py-2">
-                                                    <div className=''>
-                                                        <FaNpm color='red' fontSize='2rem' />
-                                                        <h5>npm</h5>
-                                                    </div>
-                                                    <div>
-                                                        <FaPython color='rgb(135,206,250)' fontSize='2rem' />
-                                                        <h5>pip</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div className="my-3">
-                                            <div className="card-body skillCard">
-                                                <h5 className="card-title">GUI <br /> TOOLKIY</h5>
-                                                <div className="my-2 py-2">
-                                                    <div>
-                                                        <FaPython color='rgb(135,206,250)' fontSize='2rem' />
-                                                        <h5>TKINTER <br />(PYTHON)</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div className="my-3">
-                                            <div className="card-body skillCard">
-                                                <h5 className="card-title"> BACKEND <br /> LANGUAGE</h5>
-                                                <div className="d-flex justify-content-around my-2 py-2">
-                                                    <div>
-                                                        <FaPhp color='purple' fontSize='2rem' />
-                                                        <h5>PHP</h5>
-                                                    </div>
-                                                    <div>
-                                                        <FaNodeJs color='#006400' fontSize='2rem' />
-                                                        <h5>JAVASCRIPT <br />   (NODE JS) </h5>
-                                                    </div>
-                                                    <div>
-                                                        <DiDjango color='rgb(135,206,250)' fontSize='2rem' />
-                                                        <h5>PYTHON <br /> (DJNAGO) </h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
 
                             </div>
                             {/* close tab 1*/}
@@ -306,7 +130,7 @@ function TabPanel() {
                                         <div className='container mt-4'>
                                             <ul className=''>
                                                 <li>
-                                                Resolve issues in many repos.
+                                                    Resolve issues in many repos.
                                                 </li>
                                                 <li>
                                                     Manage documentations and readme files.
