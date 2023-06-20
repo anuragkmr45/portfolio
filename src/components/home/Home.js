@@ -56,7 +56,7 @@ function Home() {
                             </ul>
                         </div>
                         <div className="col-lg-5 col-md-6 col-sm-12 text-center fadeInRight">
-                            <img className='upDown' src={MyImg} alt="" />
+                            <img className='myImg' src={MyImg} alt="anuragkmr45" />
                             <div>
                                 <a style={{ textDecoration: 'none' }} rel="noreferrer" target='_blank' href='https://github.com/anuragkmr45/resume-/blob/main/anurag%20resume%20(1).pdf'>
                                     <div className="btns mt-3">
