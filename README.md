@@ -35,6 +35,11 @@ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 cd YOUR-REPOSITORY
 npm install 
 ```
+or 
+```
+<!-- preferable -->
+pnpm i <-- if pnpm is installed -->
+```
 Note - Make sure you have active internet and already install node.js in your PC
 
 4. Start the server 
@@ -45,4 +50,11 @@ or
 ```
 npm run start 
 ```
+or
+``` 
+<!-- preferable -->
+pnpm start <-- if pnpm is installed -->
+
+```
 It start script is used to execute the defined file in it without typing its execution command.
+For more scripts checkout package.json file
