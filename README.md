@@ -46,9 +46,3 @@ or
 npm run start 
 ```
 It start script is used to execute the defined file in it without typing its execution command.
-
-## Page Visuals
-
-<img width="960" alt="landing page " src="https://user-images.githubusercontent.com/93537069/194762120-a6c6413a-a22e-4164-90d9-2ee5f8221a0d.png">
-<img width="960" alt="my bio" src="https://user-images.githubusercontent.com/93537069/194762119-bf2787b5-b158-455a-b106-2de6589a9f99.png">
-<img width="960" alt="my projects" src="https://user-images.githubusercontent.com/93537069/194762123-2907f0b4-4dae-44d0-9106-b51736518fd4.png">
