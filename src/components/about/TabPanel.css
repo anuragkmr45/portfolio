@@ -25,3 +25,11 @@
     color: rgb(203, 178, 106);
     font-weight: bold;
 }
+
+.panelText{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgba(203, 178, 106)
+}
