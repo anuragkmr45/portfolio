@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import './TabPanel.css'
-import SkillCard from '../cards/Skillcard';
+import SkillCard from '../cards/SkillCard/Skillcard';
 
 import { FaSchool, FaUserGraduate, FaReact, FaNodeJs, FaPhp, FaJava, FaPython, FaLinux } from "react-icons/fa";
 import { SiRedux, SiNextdotjs, SiMui, SiTailwindcss, SiExpress, SiDjango, SiMongodb, SiMysql, SiSqlite, SiFirebase, SiFlutter, SiAndroidstudio, SiJavascript, SiDart, SiTypescript, SiDocker, SiKubernetes, SiApachemaven, SiGit, SiPostman } from "react-icons/si";
@@ -32,68 +32,68 @@ function TabPanel() {
                             <div>
                                 <h4 className='text-center' >Client Side</h4>
                                 <div className="d-flex flex-wrap justify-content-around">
-                                    <SkillCard icons={<FaReact />} />
-                                    <SkillCard icons={<SiRedux />} />
-                                    <SkillCard icons={<SiNextdotjs />} />
-                                    <SkillCard icons={<SiMui />} />
-                                    <SkillCard icons={<SiTailwindcss />} />
+                                    <SkillCard docLink='https://react.dev/' icons={<FaReact />} />
+                                    <SkillCard docLink='https://redux.js.org/' icons={<SiRedux />} />
+                                    <SkillCard docLink='https://nextjs.org/' icons={<SiNextdotjs />} />
+                                    <SkillCard docLink='https://mui.com/' icons={<SiMui />} />
+                                    <SkillCard docLink='https://tailwindcss.com/' icons={<SiTailwindcss />} />
                                 </div>
                             </div>
                             <hr />
                             <div>
                                 <h4 className='text-center' >Server Side</h4>
                                 <div className="d-flex flex-wrap justify-content-around">
-                                    <SkillCard icons={<FaNodeJs />} />
-                                    <SkillCard icons={<SiExpress />} />
-                                    <SkillCard icons={<SiDjango />} />
-                                    <SkillCard icons={<FaPhp />} />
+                                    <SkillCard docLink='https://nodejs.org/en' icons={<FaNodeJs />} />
+                                    <SkillCard docLink='https://expressjs.com/' icons={<SiExpress />} />
+                                    <SkillCard docLink='https://www.djangoproject.com/' icons={<SiDjango />} />
+                                    <SkillCard docLink='https://www.php.net/' icons={<FaPhp />} />
                                 </div>
                             </div>
                             <hr />
                             <div>
                                 <h4 className='text-center' >Database</h4>
                                 <div className="d-flex flex-wrap justify-content-around">
-                                    <SkillCard icons={<SiMongodb />} />
-                                    <SkillCard icons={<SiMysql />} />
-                                    <SkillCard icons={<SiSqlite />} />
-                                    <SkillCard icons={<SiFirebase />} />
+                                    <SkillCard docLink='https://www.mongodb.com/' icons={<SiMongodb />} />
+                                    <SkillCard docLink='https://www.mysql.com/' icons={<SiMysql />} />
+                                    <SkillCard docLink='https://www.sqlite.org/index.html' icons={<SiSqlite />} />
+                                    <SkillCard docLink='https://firebase.google.com/' icons={<SiFirebase />} />
                                 </div>
                             </div>
                             <hr />
                             <div>
                                 <h4 className='text-center' >Mobile Application</h4>
                                 <div className="d-flex flex-wrap justify-content-around">
-                                    <SkillCard icons={<SiFlutter />} />
-                                    <SkillCard icons={<SiAndroidstudio />} />
+                                    <SkillCard docLink='https://flutter.dev/' icons={<SiFlutter />} />
+                                    <SkillCard docLink='https://developer.android.com/' icons={<SiAndroidstudio />} />
                                 </div>
                             </div>
                             <hr />
                             <div>
                                 <h4 className='text-center' >Languages</h4>
                                 <div className="d-flex flex-wrap justify-content-around">
-                                    <SkillCard icons={<FaJava />} />
-                                    <SkillCard icons={<SiJavascript />} />
-                                    <SkillCard icons={<SiTypescript />} />
-                                    <SkillCard icons={<FaPython />} />
-                                    <SkillCard icons={<SiDart />} />
+                                    <SkillCard docLink='https://www.java.com/en/' icons={<FaJava />} />
+                                    <SkillCard docLink='https://developer.mozilla.org/en-US/' icons={<SiJavascript />} />
+                                    <SkillCard docLink='https://www.typescriptlang.org/' icons={<SiTypescript />} />
+                                    <SkillCard docLink='https://www.python.org/' icons={<FaPython />} />
+                                    <SkillCard docLink='https://dart.dev/' icons={<SiDart />} />
                                 </div>
                             </div>
                             <hr />
                             <div>
                                 <h4 className='text-center' >DevOps Tools</h4>
                                 <div className="d-flex flex-wrap justify-content-around">
-                                    <SkillCard icons={<SiDocker />} />
-                                    <SkillCard icons={<SiKubernetes />} />
-                                    <SkillCard icons={<SiApachemaven />} />
+                                    <SkillCard docLink='https://www.docker.com/' icons={<SiDocker />} />
+                                    <SkillCard docLink='https://kubernetes.io/' icons={<SiKubernetes />} />
+                                    <SkillCard docLink='https://maven.apache.org/' icons={<SiApachemaven />} />
                                 </div>
                             </div>
                             <hr />
                             <div>
                                 <h4 className='text-center' >Tools and CLIs</h4>
                                 <div className="d-flex flex-wrap justify-content-around">
-                                    <SkillCard icons={<FaLinux />} />
-                                    <SkillCard icons={<SiGit />} />
-                                    <SkillCard icons={<SiPostman />} />
+                                    <SkillCard docLink='https://www.linux.org/' icons={<FaLinux />} />
+                                    <SkillCard docLink='https://git-scm.com/' icons={<SiGit />} />
+                                    <SkillCard docLink='https://www.postman.com/' icons={<SiPostman />} />
                                 </div>
                             </div>
 
