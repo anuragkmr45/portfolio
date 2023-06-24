@@ -174,7 +174,28 @@ function TabPanel() {
 
                             <div className='p-4 pt-5 my-2' style={{ backgroundColor: 'rgba(102, 114, 125, 0.6)', borderRadius: '5rem' }}>
                                 <div className="text-center">
-                                    <h4>January 2022 - Present </h4>
+                                    <h4>April 2023 - Present </h4>
+                                    <h2 style={{ color: 'rgb(203, 178, 106)' }}>Co-Founder and Team Lead</h2>
+                                    <h5>at <a href='http://progeeks.in/' target='_blank' rel="noreferrer" style={{ textDecoration: 'none', color: "whitesmoke", cursor: 'pointer' }} > progeeks.in</a></h5>
+                                    <h5>Software Developer</h5>
+                                </div>
+                                <div className='container mt-4'>
+                                    <ul className=''>
+                                        <li>
+                                            Lead development team for developing and optimising e-commerce website for UK client.
+                                        </li>
+                                        <li>
+                                            Optimise two wordpress site and get ranked in browser SEO.
+                                        </li>
+                                        <li>
+                                            Manage several teams like tech developer team and lead generation. .
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className='p-4 pt-5 my-2' style={{ backgroundColor: 'rgba(102, 114, 125, 0.6)', borderRadius: '5rem' }}>
+                                <div className="text-center">
+                                    <h4>January 2022 - January 2023 </h4>
                                     <h2 style={{ color: 'rgb(203, 178, 106)' }}>Chief Technology Officer (CTO)</h2>
                                     <h5>at <b> uncovercampus.com</b></h5>
                                     <h5>FULL STACK DEVELOPMENT</h5>
@@ -197,7 +218,7 @@ function TabPanel() {
                                 <div className="text-center">
                                     <h4>September 2022 - Present </h4>
                                     <h2 style={{ color: 'rgb(203, 178, 106)' }}>Full Stack Developer</h2>
-                                    <h5>at <b> Apoorba Industries</b></h5>
+                                    <h5>at <a href='http://progeeks.in/' target='_blank' rel="noreferrer" style={{ textDecoration: 'none', color: "whitesmoke", cursor: 'pointer' }} > ApoorbaIndustries.com</a></h5>
                                     <h5>FULL STACK DEVELOPMENT</h5>
                                 </div>
                                 <div className='container mt-4'>
@@ -206,7 +227,7 @@ function TabPanel() {
                                             Developed website from scratch with various algorithm to make business site effective.
                                         </li>
                                         <li>
-                                            Develop site in two different tech stacks.
+                                            Optimise site and get ranked in browser seo.
                                         </li>
                                         <li>
                                             Manage whole database for huge count of products and customers.

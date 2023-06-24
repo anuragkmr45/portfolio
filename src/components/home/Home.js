@@ -7,7 +7,15 @@ import Vector1 from '../../images/vector-1.png';
 import MyImg from '../../images/myImg.png';
 
 
-import { BsInstagram, BsLinkedin, BsGithub, BsTwitter, BsFillClockFill, BsCodeSlash, BsFillCupFill } from 'react-icons/bs';
+import {
+    BsInstagram,
+    BsLinkedin,
+    BsGithub,
+    BsTwitter,
+    BsFillClockFill,
+    BsCodeSlash,
+    BsFillCupFill
+} from 'react-icons/bs';
 import { FaDev } from 'react-icons/fa';
 import { MdOutlineNightsStay } from "react-icons/md";
 
