@@ -28,19 +28,31 @@ function TabPanel() {
                             className={showtab === 1 ? "active navtabItem" : "navtabItem"}
                             onClick={() => handletab(1)}
                         >
-                            PHP
+                            Social Media App
                         </h4>
                         <h4
                             className={showtab === 2 ? "active navtabItem" : "navtabItem"}
                             onClick={() => handletab(2)}
                         >
-                            MERN
+                            E-Commerce App
                         </h4>
                         <h4
                             className={showtab === 3 ? "active navtabItem" : "navtabItem"}
                             onClick={() => handletab(3)}
                         >
-                            DJANGO
+                            Booking App
+                        </h4>
+                        <h4
+                            className={showtab === 4 ? "active navtabItem" : "navtabItem"}
+                            onClick={() => handletab(4)}
+                        >
+                            Messaging App
+                        </h4>
+                        <h4
+                            className={showtab === 5 ? "active navtabItem" : "navtabItem"}
+                            onClick={() => handletab(5)}
+                        >
+                            Video Streaming App
                         </h4>
                     </div>
                     <div className="tab-content my-3" id="pills-tabContent">
@@ -155,7 +167,23 @@ function TabPanel() {
                             className={
                                 showtab === 3 ? "tab-pane fade show active" : "tab-pane fade"
                             }
-                        ></div>
+                        >
+                            Booking App
+                        </div>
+                        <div
+                            className={
+                                showtab === 4 ? "tab-pane fade show active" : "tab-pane fade"
+                            }
+                        >
+                            Messaging App
+                        </div>
+                        <div
+                            className={
+                                showtab === 5 ? "tab-pane fade show active" : "tab-pane fade"
+                            }
+                        >
+                            Video Streaming App
+                        </div>
                         {/* close tab 3*/}
                     </div>
                 </div>
