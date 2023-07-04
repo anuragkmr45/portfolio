@@ -54,6 +54,12 @@ function TabPanel() {
                         >
                             Video Streaming App
                         </h4>
+                        <h4
+                            className={showtab === 6 ? "active navtabItem" : "navtabItem"}
+                            onClick={() => handletab(5)}
+                        >
+                            More...
+                        </h4>
                     </div>
                     <div className="tab-content my-3" id="pills-tabContent">
                         {/* start tab 1*/}
@@ -64,55 +70,7 @@ function TabPanel() {
                                     : "tab-pane fade show p-lg-4"
                             }
                         >
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <TabPanelCard
-                                            img={UC_old}
-                                            title="Uncovercampus"
-                                            subTitle="one stop solution for all needs of college students"
-                                            li1="Fully responsive frontend, backend web page setup along with integrated database setup ."
-                                            li2="Hand coded custom amination using css and Jquery and making the website interactive."
-                                            li3="Created all the components from scratch using html, css and js "
-                                            code="https://github.com/anuragkmr45/UC_new.git"
-                                        />
-                                    </div>
-                                    <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <TabPanelCard
-                                            img={apoorva_industries}
-                                            title="Apoorva Industries"
-                                            subTitle="Manufacturing Plastic Item Industries"
-                                            li1="Fully responsive frontend, backend web page setup along with integrated database setup ."
-                                            li2="This site is underdevelopment "
-                                            li3="Hand coded custom amination using css and Jquery and making the website interactive."
-                                            // live="https://apoorbaindustries.netlify.app/"
-                                            code="https://github.com/anuragkmr45/apoorva_industries.git"
-                                        />
-                                    </div>
-                                    <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <TabPanelCard
-                                            img={NFT_market}
-                                            title="NFT Market"
-                                            subTitle="The website where you can buy and sell your NFTs"
-                                            li1="Fully responsive frontend, backend web page setup."
-                                            li2="Hand coded custom amination using css and Jquery and making the website interactive."
-                                            li3="Created all the components from scratch using html, css and js "
-                                            code="https://github.com/anuragkmr45/NFT_Market.git"
-                                        />
-                                    </div>
-                                    <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <TabPanelCard
-                                            img={Yummy}
-                                            title="Yummy"
-                                            subTitle="this is a restaurant website template"
-                                            li1="Fully responsive frontend web page setup."
-                                            li2="Hand coded custom amination using css and Jquery and making the website interactive."
-                                            li3="Created all the components from scratch using html, css and js "
-                                            code="https://github.com/anuragkmr45/Yummy.git"
-                                        />
-                                    </div>
-                                </div>
-                            </div>
+                            Social Media
                         </div>
                         {/* close tab 1*/}
 
@@ -183,6 +141,62 @@ function TabPanel() {
                             }
                         >
                             Video Streaming App
+                        </div>
+                        <div
+                            className={
+                                showtab === 6 ? "tab-pane fade show active" : "tab-pane fade"
+                            }
+                        >
+
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-lg-6 col-md-6 col-sm-12">
+                                        <TabPanelCard
+                                            img={UC_old}
+                                            title="Uncovercampus"
+                                            subTitle="one stop solution for all needs of college students"
+                                            li1="Fully responsive frontend, backend web page setup along with integrated database setup ."
+                                            li2="Hand coded custom amination using css and Jquery and making the website interactive."
+                                            li3="Created all the components from scratch using html, css and js "
+                                            code="https://github.com/anuragkmr45/UC_new.git"
+                                        />
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12">
+                                        <TabPanelCard
+                                            img={apoorva_industries}
+                                            title="Apoorva Industries"
+                                            subTitle="Manufacturing Plastic Item Industries"
+                                            li1="Fully responsive frontend, backend web page setup along with integrated database setup ."
+                                            li2="This site is underdevelopment "
+                                            li3="Hand coded custom amination using css and Jquery and making the website interactive."
+                                            // live="https://apoorbaindustries.netlify.app/"
+                                            code="https://github.com/anuragkmr45/apoorva_industries.git"
+                                        />
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12">
+                                        <TabPanelCard
+                                            img={NFT_market}
+                                            title="NFT Market"
+                                            subTitle="The website where you can buy and sell your NFTs"
+                                            li1="Fully responsive frontend, backend web page setup."
+                                            li2="Hand coded custom amination using css and Jquery and making the website interactive."
+                                            li3="Created all the components from scratch using html, css and js "
+                                            code="https://github.com/anuragkmr45/NFT_Market.git"
+                                        />
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-sm-12">
+                                        <TabPanelCard
+                                            img={Yummy}
+                                            title="Yummy"
+                                            subTitle="this is a restaurant website template"
+                                            li1="Fully responsive frontend web page setup."
+                                            li2="Hand coded custom amination using css and Jquery and making the website interactive."
+                                            li3="Created all the components from scratch using html, css and js "
+                                            code="https://github.com/anuragkmr45/Yummy.git"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         {/* close tab 3*/}
                     </div>
